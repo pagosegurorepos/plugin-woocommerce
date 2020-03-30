@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pago Seguro Payment Gateway For WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-24 21:39+0000\n"
+"PO-Revision-Date: 2020-03-24 21:41+0000\n"
+"Last-Translator: William Hurtado <williandres8@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: pagoseguro.php:75
+msgid "PagoSeguro"
+msgstr "Pago Seguro"
+
+#: pagoseguro.php:76
+msgid "PagoSeguroDescription"
+msgstr "Pago Seguro Payment Gateway"
+
+#: pagoseguro.php:191
+msgid "moduleWithoutConfig"
+msgstr ""
+"You must configure Pago Seguro, more info https://pagosegurorepos.github."
+"io/documentation/#/"
+
+#: pagoseguro.php:209
+msgid "RedirectingPayment."
+msgstr "Redirecting to payment provider Pago Seguro."
+
+#: pagoseguro.php:213
+msgid "OrderNote"
+msgstr "Order placed and user redirected."
+
+#: pagoseguro.php:215
+msgid "AwaitingPayment."
+msgstr "Awaiting Payment."
+
+#: views/gateway-disabled.php:11
+msgid "GatewayDisabled"
+msgstr "Gateway Disabled"
+
+#: views/gateway-disabled.php:12
+msgid "PagoSeguroNotCurrency."
+msgstr "Pago Seguro does not support your store currency."
+
+#: views/admin/settings-configure-form.php:9
+msgid "Description"
+msgstr "Description"
+
+#: views/admin/settings-configure-form.php:14
+msgid "PAGOSEGURO_TEST_MODE"
+msgstr "Test Mode"
+
+#: views/admin/settings-configure-form.php:20
+msgid "PAGOSEGURO_ACCOUNT_ID"
+msgstr "Account ID"
+
+#: views/admin/settings-configure-form.php:25
+msgid "PAGOSEGURO_API_KEY"
+msgstr "Api Key"
+
+#: views/admin/settings-configure-form.php:29
+msgid "PAGOSEGURO_URL_TEST"
+msgstr "Url Test Mode"
+
+#: views/admin/settings-configure-form.php:33
+msgid "PAGOSEGURO_URL_PAYMENT"
+msgstr "Url Production"
+
+#: views/admin/settings-configure.php:16
+msgid "Configuration"
+msgstr "Configuration"
+
+#: views/front/payment_detail.php:51
+msgid "TaxInclude"
+msgstr "(tax incl.)"
+
+#: views/front/payment_detail.php:54
+msgid "PaymentDetailsMessage"
+msgstr ""
+"Once you confirm your order, you can pay using the payment method you choose "
+"of Pago Seguro"
+
+#. Name of the plugin
+msgid "Pago Seguro Payment Gateway For WooCommerce"
+msgstr "Pago Seguro Payment Gateway For WooCommerce"
+
+#. Description of the plugin
+msgid "Pago Seguro Payment Gateway"
+msgstr "Pago Seguro Payment Gateway"
+
+#. URI of the plugin
+msgid "https://pagosegurorepos.github.io/documentation/#/"
+msgstr "https://pagosegurorepos.github.io/documentation/#/"
+
+#. Author of the plugin
+msgid "widres8"
+msgstr "widres8"
+
+#. Author URI of the plugin
+msgid "http://widres8.github.io/"
+msgstr "http://widres8.github.io/"

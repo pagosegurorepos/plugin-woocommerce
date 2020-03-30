@@ -1,0 +1,100 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pago Seguro Payment Gateway For WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-24 21:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: pagoseguro.php:75
+msgid "PagoSeguro"
+msgstr ""
+
+#: pagoseguro.php:76
+msgid "PagoSeguroDescription"
+msgstr ""
+
+#: pagoseguro.php:209
+msgid "RedirectingPayment."
+msgstr ""
+
+#: pagoseguro.php:212
+msgid "OrderNote"
+msgstr ""
+
+#: pagoseguro.php:215
+msgid "AwaitingPayment."
+msgstr ""
+
+#: views/gateway-disabled.php:11
+msgid "GatewayDisabled"
+msgstr ""
+
+#: views/gateway-disabled.php:12
+msgid "PagoSeguroNotCurrency."
+msgstr ""
+
+#: views/admin/settings-configure-form.php:9
+msgid "Description"
+msgstr ""
+
+#: views/admin/settings-configure-form.php:14
+msgid "PAGOSEGURO_TEST_MODE"
+msgstr ""
+
+#: views/admin/settings-configure-form.php:20
+msgid "PAGOSEGURO_ACCOUNT_ID"
+msgstr ""
+
+#: views/admin/settings-configure-form.php:25
+msgid "PAGOSEGURO_API_KEY"
+msgstr ""
+
+#: views/admin/settings-configure-form.php:29
+msgid "PAGOSEGURO_URL_TEST"
+msgstr ""
+
+#: views/admin/settings-configure-form.php:33
+msgid "PAGOSEGURO_URL_PAYMENT"
+msgstr ""
+
+#: views/admin/settings-configure.php:16
+msgid "Configuration"
+msgstr ""
+
+#: views/front/payment_detail.php:51
+msgid "TaxInclude"
+msgstr ""
+
+#: views/front/payment_detail.php:54
+msgid "PaymentDetailsMessage"
+msgstr ""
+
+#. Name of the plugin
+msgid "Pago Seguro Payment Gateway For WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Pago Seguro Payment Gateway"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://pagosegurorepos.github.io/documentation/#/"
+msgstr ""
+
+#. Author of the plugin
+msgid "widres8"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://widres8.github.io/"
+msgstr ""
