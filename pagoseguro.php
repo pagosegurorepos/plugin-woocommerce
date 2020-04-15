@@ -91,11 +91,13 @@ function pagoseguro_init_gateway_class()
             $this->description     = $this->get_option('description');
             $this->enabled         = $this->get_option('enabled');
 
-            $this->pagoseguroTestMode    = 'yes' === $this->get_option('pagoseguroTestMode');
-            $this->pagoseguroAccountId   = $this->get_option('pagoseguroAccountId');
-            $this->pagoseguroApiKey      = $this->get_option('pagoseguroApiKey');
-            $this->pagoseguroUrlTest     = $this->get_option('pagoseguroUrlTest');
-            $this->pagoseguroUrlPayment  = $this->get_option('pagoseguroUrlPayment');
+            $this->pagoseguroTestMode        = 'yes' === $this->get_option('pagoseguroTestMode');
+            $this->pagoseguroAccountId       = $this->get_option('pagoseguroAccountId');
+            $this->pagoseguroApiKey          = $this->get_option('pagoseguroApiKey');
+            $this->pagoseguroAccountIdTest   = $this->get_option('pagoseguroAccountIdTest');
+            $this->pagoseguroApiKeyTest      = $this->get_option('pagoseguroApiKeyTest');
+            $this->pagoseguroUrlTest         = $this->get_option('pagoseguroUrlTest');
+            $this->pagoseguroUrlPayment      = $this->get_option('pagoseguroUrlPayment');
 
             self::$log_enabled    = $this->pagoseguroTestMode;
 
@@ -225,8 +227,8 @@ function pagoseguro_init_gateway_class()
             }
 
             // Parameters Pago Seguro
-            $accountId = $this->get_option('pagoseguroAccountId');
-            $apiKey    = $this->get_option('pagoseguroApiKey');
+            $accountId = 'yes' === $this->get_option('pagoseguroTestMode') ? $this->get_option('pagoseguroAccountIdTest') : $this->get_option('pagoseguroAccountId');
+            $apiKey    = 'yes' === $this->get_option('pagoseguroTestMode') ? $this->get_option('pagoseguroApiKeyTest') : $this->get_option('pagoseguroApiKey');
 
             // Order
             $order          = new WC_Order($order_id);

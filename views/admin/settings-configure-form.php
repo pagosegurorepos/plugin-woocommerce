@@ -25,6 +25,15 @@ return [
         'title'       => __('PAGOSEGURO_API_KEY', 'pagoseguro'),
         'type'        => 'password',
     ],
+    'pagoseguroAccountIdTest' => [
+        'title'       => __('PAGOSEGURO_ACCOUNT_ID_TEST', 'pagoseguro'),
+        'type'        => 'number',
+        'required'    => '',
+    ],
+    'pagoseguroApiKeyTest' => [
+        'title'       => __('PAGOSEGURO_API_KEY_TEST', 'pagoseguro'),
+        'type'        => 'password',
+    ],
     'pagoseguroUrlTest' => [
         'title'       => __('PAGOSEGURO_URL_TEST', 'pagoseguro'),
         'type'        => 'text',

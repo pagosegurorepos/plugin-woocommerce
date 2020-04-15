@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pago Seguro Payment Gateway For WooCommerce\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-24 21:39+0000\n"
-"PO-Revision-Date: 2020-03-24 21:41+0000\n"
+"POT-Creation-Date: 2020-04-15 21:26+0000\n"
+"PO-Revision-Date: 2020-04-15 21:27+0000\n"
 "Last-Translator: William Hurtado <williandres8@gmail.com>\n"
 "Language-Team: Español de Colombia\n"
 "Language: es_CO\n"
@@ -22,21 +22,21 @@ msgstr "Pago Seguro"
 msgid "PagoSeguroDescription"
 msgstr "Pago Seguro Carro de Compras"
 
-#: pagoseguro.php:191
+#: pagoseguro.php:224
 msgid "moduleWithoutConfig"
 msgstr ""
 "Debes Configurar Pago Seguro, mas información https://pagosegurorepos.github."
 "io/documentation/#/"
 
-#: pagoseguro.php:209
+#: pagoseguro.php:245
 msgid "RedirectingPayment."
 msgstr "Redirecciónando a Pago Seguro"
 
-#: pagoseguro.php:213
+#: pagoseguro.php:246
 msgid "OrderNote"
 msgstr "Orden creada y usuario redireccionado a Pago Seguro"
 
-#: pagoseguro.php:215
+#: pagoseguro.php:247
 msgid "AwaitingPayment."
 msgstr "Pago en Espera"
 
@@ -65,10 +65,18 @@ msgid "PAGOSEGURO_API_KEY"
 msgstr "Api KEY"
 
 #: views/admin/settings-configure-form.php:29
+msgid "PAGOSEGURO_ACCOUNT_ID_TEST"
+msgstr "Account ID Test"
+
+#: views/admin/settings-configure-form.php:34
+msgid "PAGOSEGURO_API_KEY_TEST"
+msgstr "Api KEY Test"
+
+#: views/admin/settings-configure-form.php:38
 msgid "PAGOSEGURO_URL_TEST"
 msgstr "Url Sanbox (Pruebas)"
 
-#: views/admin/settings-configure-form.php:33
+#: views/admin/settings-configure-form.php:42
 msgid "PAGOSEGURO_URL_PAYMENT"
 msgstr "Url Producción"
 

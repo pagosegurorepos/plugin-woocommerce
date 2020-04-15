@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pago Seguro Payment Gateway For WooCommerce\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-15 21:26+0000\n"
+"POT-Creation-Date: 2020-03-24 21:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -23,19 +23,19 @@ msgstr ""
 msgid "PagoSeguroDescription"
 msgstr ""
 
-#: pagoseguro.php:224
+#: pagoseguro.php:191
 msgid "moduleWithoutConfig"
 msgstr ""
 
-#: pagoseguro.php:245
+#: pagoseguro.php:209
 msgid "RedirectingPayment."
 msgstr ""
 
-#: pagoseguro.php:246
+#: pagoseguro.php:213
 msgid "OrderNote"
 msgstr ""
 
-#: pagoseguro.php:247
+#: pagoseguro.php:215
 msgid "AwaitingPayment."
 msgstr ""
 
@@ -64,18 +64,10 @@ msgid "PAGOSEGURO_API_KEY"
 msgstr ""
 
 #: views/admin/settings-configure-form.php:29
-msgid "PAGOSEGURO_ACCOUNT_ID_TEST"
-msgstr ""
-
-#: views/admin/settings-configure-form.php:34
-msgid "PAGOSEGURO_API_KEY_TEST"
-msgstr ""
-
-#: views/admin/settings-configure-form.php:38
 msgid "PAGOSEGURO_URL_TEST"
 msgstr ""
 
-#: views/admin/settings-configure-form.php:42
+#: views/admin/settings-configure-form.php:33
 msgid "PAGOSEGURO_URL_PAYMENT"
 msgstr ""
 
