@@ -40,6 +40,8 @@ if (in_array('woocommerce/woocommerce.php', $active_plugins)) {
     function pagoseguro_load_plugin_textdomain()
     {
         load_plugin_textdomain('pagoseguro', false, WP_PLUGIN_URL.'/'.str_replace(basename(__FILE__), '', plugin_basename(__FILE__)).'languages/');
+        load_plugin_textdomain('pagoseguro', false, dirname(plugin_basename(__FILE__)).'/languages/');
+        // load_textdomain('pagoseguro', WP_PLUGIN_DIR.'/'.dirname(plugin_basename(__FILE__)).'/languages/pagoseguro-'.get_locale().'.mo');
     }
 }
 
