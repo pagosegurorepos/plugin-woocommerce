@@ -122,7 +122,8 @@ function pagoseguro_init_gateway_class()
         public function admin_options()
         {
             if ($this->isValidForUse()) {
-                $icon = $this->getUrlAssets().'/img/logo.png';
+                // $icon = $this->getUrlAssets().'/img/logo.png';
+                $icon = 'https://documentosps.s3.us-east-2.amazonaws.com/logo_green.png';
                 include 'views/admin/settings-configure.php';
             } else {
                 include 'views/gateway-disabled.php';
@@ -200,8 +201,8 @@ function pagoseguro_init_gateway_class()
          */
         public function get_icon()
         {
-            $icon      = $this->getUrlAssets().'/img/payment_logo.png';
-            $icon_html = '<img src="'.esc_attr($icon).'" alt="'.esc_attr__('PagoSeguroDescription').'" style="float: none;" />';
+            $icon      = 'https://documentosps.s3.us-east-2.amazonaws.com/logo_green.png';
+            $icon_html = '<img src="'.esc_attr($icon).'" alt="'.esc_attr__('PagoSeguroDescription').'" style="float: none; max-width: 75px; background-color: grey; border-radius: 10px;" />';
 
             return apply_filters('woocommerce_gateway_icon', $icon_html, $this->id);
         }
