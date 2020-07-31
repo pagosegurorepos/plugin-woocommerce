@@ -235,10 +235,11 @@ function pagoseguro_init_gateway_class()
             // Order
             $order          = new WC_Order($order_id);
             $orderReference = ($order->get_id() ? $order->get_id() : 0);
-            foreach ($order->get_items() as $item) {
-                $product = wc_get_product($item['product_id'])->get_title();
-                break;
-            }
+            // foreach ($order->get_items() as $item) {
+            //     $product = wc_get_product($item['product_id'])->get_title();
+            //     break;
+            // }
+            $product = $orderReference;
             // Signature
             $stringSignature = $accountId.'|'.$orderReference.'|'.$total.'|'.$product.'|'.$customerFullName.'|'.$customerEmail.'|'.'/payment/process||||||||||'.$apiKey;
             $signature       = hash('sha512', $stringSignature);
